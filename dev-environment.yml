@@ -6,6 +6,5 @@ dependencies:
   - ipykernel
   - scikit-learn
   - pandas
-  - jupyterlab
   - pip
-prefix: /Users/bacher/opt/anaconda3/envs/MLOps-dev
+prefix: /home/user/anaconda3/envs/MLOps-dev
