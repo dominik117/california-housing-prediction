@@ -5,8 +5,14 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 from sklearn.pipeline import Pipeline
+import os
+import dotenv
 
-data_path = "./data/raw/california_housing_0.csv"
+project_dir = os.path.join(os.path.dirname(__file__), os.pardir)
+dotenv_path = os.path.join(project_dir, '.env')
+dotenv.load_dotenv(dotenv_path)
+
+data_path = os.getenv("DATA_PATH")
 data = pd.read_csv(data_path)
 data = data.drop(columns="total_bedrooms")
 data_train, data_test = train_test_split(data, test_size=0.33, random_state=0)
