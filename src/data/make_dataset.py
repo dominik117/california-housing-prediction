@@ -8,6 +8,14 @@ import os
 def main(input_filepath, output_filepath):
     """ Runs data processing scripts to turn raw data from (../raw) into
         cleaned data ready to be analyzed (saved in ../processed).
+
+        Paramters
+        ---------
+        input_filepath: str
+            the full path (including name of the file) of the raw data
+        output_filepath: str
+            the folder path to create and to save train and test datasets
+
     """
     logger = logging.getLogger(__name__)
     logger.info('making final data set from raw data')
