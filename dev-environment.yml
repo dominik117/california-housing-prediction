@@ -1,9 +1,11 @@
 name: MLOps-dev
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - python==3.10.12
   - ipykernel
+  - pip
   - scikit-learn
   - pandas
   - pip
