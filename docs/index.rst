@@ -24,4 +24,4 @@ Indices and tables
 * :ref:`search`
 
 .. automodule:: src.data.make_dataset
-    :members:
+   :members:
