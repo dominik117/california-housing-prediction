@@ -2,10 +2,10 @@
 -e .
 
 # external requirements
+dill
 click
 Sphinx
 coverage
 awscliv2
 flake8
-dill
 python-dotenv>=0.5.1
