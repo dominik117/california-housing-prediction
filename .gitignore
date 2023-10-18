@@ -6,22 +6,23 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+#<-- Comment out since I want to push everything for academic reasons
 .Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+# env/ 
+# build/ 
+# develop-eggs/
+# dist/
+# downloads/
+# eggs/
+# .eggs/
+# lib/
+# lib64/
+# parts/
+# sdist/
+# var/
+# *.egg-info/
+# .installed.cfg
+# *.egg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -57,7 +58,7 @@ docs/_build/
 target/
 
 # DotEnv configuration
-.env
+# .env #<-- Comment out since I want to push everything for academic reasons
 
 # Database
 *.db
@@ -67,7 +68,7 @@ target/
 .idea
 
 # VS Code
-.vscode/
+# .vscode/ #<-- Comment out since I want to push everything for academic reasons
 
 # Spyder
 .spyproject/
@@ -76,7 +77,11 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/
+# /data/ #<-- Comment out since I want to push everything for academic reasons
+
+# exclude models from source control:
+
+# /models/ #<-- Comment out since I want to push everything for academic reasons
 
 # Mac OS-specific storage files
 .DS_Store
