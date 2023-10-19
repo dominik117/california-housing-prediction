@@ -7,8 +7,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 from sklearn.pipeline import Pipeline
 
-from data.make_dataset import main as make_dataset
-from data.make_dataset import read_train_test_data
+from src.data.make_dataset import main as make_dataset
+from src.data.make_dataset import read_train_test_data
 import os
 import dotenv
 
