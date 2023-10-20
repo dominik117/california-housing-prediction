@@ -6,5 +6,5 @@ setup(
     version='0.1.0',
     description='Template Package Project',
     author='Dominik Bacher',
-    license='',
+    license='MIT',
 )
